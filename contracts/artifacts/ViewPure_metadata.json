@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myStorageVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ViewPure.sol": "ViewPure"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ViewPure.sol": {
+			"keccak256": "0x69b4ad6999c02b0f3bd4c32a1c0145413e4818c013bf8ccc38877c0907a74c99",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e33c6ae59835dcb98dae7e770a23693e118fb1a0434cb5d851930cdd0326d10",
+				"dweb:/ipfs/QmNmjfKnghiDJcnnBGi1hsHnXRAkk6v3tQXLneySjEmTfF"
+			]
+		}
+	},
+	"version": 1
+}
