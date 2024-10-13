@@ -6,66 +6,60 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "getAddition",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "getMyStorageVariable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStorageVariable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_myStorageVariable",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
 					}
 				],
-				"name": "setMyStorageVariable",
+				"name": "SetMyMessage",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "changeCounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -82,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ViewPure.sol": "ViewPure"
+			"contracts/TheBlockchainMessenger.sol": "TheBlockchainMessenger"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -96,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ViewPure.sol": {
-			"keccak256": "0x319b686edac11a73e9137a4fd8b560cee79abcb571f834a08f0c71df0b3401d7",
+		"contracts/TheBlockchainMessenger.sol": {
+			"keccak256": "0x535636e1d4e76c53f0a0f62a0e72b5906699f91c9295e6fc2e6d7a13c875dad9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://12d4725f516acb2c571159993e189a94b99c4b4602b8bf3fad6fa6ef91394267",
-				"dweb:/ipfs/QmeJUqSFQVodg4g4w2XFWDD2jGDntZJQWVC7XMeqxqBJKT"
+				"bzz-raw://07b6642017f46304957c9c814beffa2f5e805e2a9efe6e36b366a79d8c41c63c",
+				"dweb:/ipfs/QmfQxEPG5DAUbhfStn4AR8pYR8hesqXopxZExGB9qPqwTd"
 			]
 		}
 	},
